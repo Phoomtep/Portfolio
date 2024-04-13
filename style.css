@@ -88,7 +88,9 @@ section {
 }
 
 .greeting-image {
-    width: 340px;
+    flex: 1;
+    display: flex;
+    justify-content: end;
 }
 
 @media screen and (min-width: 768px) {
@@ -104,7 +106,7 @@ section {
 
 @media screen and (max-width: 767px) {
 
-    header{
+    header {
         padding: 0 24px;
     }
 
@@ -112,9 +114,9 @@ section {
         height: fit-content;
     }
 
-    .section-content{
-        padding-top: 64px;
-        padding-bottom: 16px;
+    .section-content {
+        padding-top: 48px;
+        padding-bottom: 24px;
     }
 
     .nav-links {
@@ -133,7 +135,7 @@ section {
         display: flex;
     }
 
-    nav a  {
+    nav a {
         /* text-align: end; */
         margin: 8px 0px;
     }
@@ -144,5 +146,9 @@ section {
 
     .section-content {
         flex-direction: column;
+    }
+
+    .greeting-image {
+        display: none;
     }
 }
