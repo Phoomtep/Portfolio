@@ -153,3 +153,12 @@ section {
         display: none;
     }
 }
+
+.hidden {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.show {
+    opacity: 1;
+}
