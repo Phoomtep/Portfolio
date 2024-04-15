@@ -112,7 +112,7 @@ section {
     justify-content: end;
 }
 
-.aboutme-card{
+.aboutme-card {
     flex: 1;
 }
 
@@ -138,7 +138,7 @@ section {
 @media screen and (max-width: 767px) {
 
     h1 {
-        font-size: 32px;
+        font-size: 48px;
         font-weight: 600;
     }
 
@@ -146,7 +146,7 @@ section {
         font-size: 24px;
         font-weight: 600;
     }
-    
+
     h3 {
         font-size: 20px;
         font-weight: 500;
