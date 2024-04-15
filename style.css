@@ -85,7 +85,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    gap: 16px;
     scroll-snap-align: start;
     scroll-snap-stop: always;
 }
@@ -107,7 +107,6 @@ section {
 }
 
 .greeting-image {
-    flex: 1;
     display: flex;
     justify-content: end;
 }
@@ -121,6 +120,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding-left: 16px;
 }
 
 .languagesntools-icon{
@@ -206,6 +206,12 @@ section {
     .greeting-image {
         display: none;
     }
+
+    .aboutme-details {
+        margin-top: 64px;
+        padding: 0;
+    }
+
 }
 
 /* .hidden {
