@@ -126,6 +126,7 @@ section {
 
 .languagesntools-icon{
     height: 40px;
+    /* filter: grayscale(100%); */
 }
 
 @media screen and (min-width: 768px) {
