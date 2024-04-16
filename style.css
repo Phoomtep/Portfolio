@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -36,7 +36,7 @@ h3 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -111,8 +111,28 @@ section {
     justify-content: end;
 }
 
+.aboutme-card-section {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .aboutme-card {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 64px 32px;
+}
+
+.aboutme-pic {
+    width: 320px;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 16px;
+    gap: 16px;
 }
 
 .aboutme-details {
@@ -120,10 +140,9 @@ section {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding-left: 16px;
 }
 
-.languagesntools-icon{
+.languagesntools-icon {
     height: 40px;
     /* filter: grayscale(100%); */
 }
@@ -170,7 +189,7 @@ section {
 
     .section-content {
         padding-top: 48px;
-        padding-bottom: 32px;
+        padding-bottom: 48px;
     }
 
     .nav-links {
@@ -207,8 +226,16 @@ section {
         display: none;
     }
 
+    .aboutme-card {
+        padding: 32px 16px;
+    }
+
+    .aboutme-pic {
+        width: 240px;
+    }
+
     .aboutme-details {
-        margin-top: 64px;
+        margin-top: 32px;
         padding: 0;
     }
 
